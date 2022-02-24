@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+/*TODO: укажите genaric-family на случай, если шрифты не загрузятся: font-family: ubuntu, sans-serif; */
   font-family: ubuntu;
 }
 html{
@@ -317,6 +318,7 @@ section{
   border-radius: 20px;
   padding: 55px 60px 55px 40px;
   overflow: hidden;
+/*TODO: нулевым значениям не нужно указывать единицы измерения 0px -> 0*/
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.1);
   transition: 0.4s linear;
 }
